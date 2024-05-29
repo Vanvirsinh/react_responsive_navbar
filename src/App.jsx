@@ -1,10 +1,11 @@
+import Navbar from "./components/Navbar/Navbar";
+import "./font.css";
+
 function App() {
 
   return (
     <>
-      <h1 className="font-bold text-lg">
-        React Navbar Project
-      </h1>
+      <Navbar />
     </>
   )
 }
